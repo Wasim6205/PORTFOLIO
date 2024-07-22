@@ -1,11 +1,11 @@
 import React from 'react'
 import html from "../../public/html.png"
 import css from "../../public/css.jpg"
-import java from "../../public/java.png"
 import javascript from "../../public/javascript.png"
-import oracle from "../../public/oracle.png"
-import spring from "../../public/spring.png"
-import springBoot from "../../public/springBoot.jpg"
+import react from "../../public/reactjs.png"
+import nodejs from "../../public/node.png"
+import mongodb from "../../public/mongodb.jpg"
+import expressjs from "../../public/express.png"
 
 const Experience = () => {
     const cardItem = [
@@ -26,23 +26,23 @@ const Experience = () => {
         },
         {
             id: 4,
-            logo:javascript,
-            name:"JavaScript"
+            logo:react,
+            name:"React Js"
         },
         {
             id: 5,
-            logo:javascript,
-            name:"JavaScript"
+            logo:nodejs,
+            name:"Node Js"
         },
         {
             id: 6,
-            logo:javascript,
-            name:"JavaScript"
+            logo:mongodb,
+            name:"Mongodb"
         },
         {
             id: 7,
-            logo:javascript,
-            name:"JavaScript"
+            logo:expressjs,
+            name:"Express Js"
         },
     ]
   return (

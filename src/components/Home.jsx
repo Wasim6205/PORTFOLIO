@@ -3,7 +3,7 @@ import { FaLinkedin, FaNodeJs, FaReact, FaTelegram, FaTwitter } from "react-icon
 import { FaSquareFacebook } from "react-icons/fa6";
 import { SiExpress, SiMongodb } from "react-icons/si";
 import { ReactTyped } from "react-typed";
-import pic from "../../public/photo.avif";
+import pic from "../../public/wasimlogo.png";
 
 const Home = () => {
   return (
