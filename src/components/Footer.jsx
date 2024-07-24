@@ -15,8 +15,8 @@ const Footer = () => {
                         <a href="https://www.linkedin.com/in/md-wasim-ansari-04b645263/" target="_blank"><FaLinkedin size={24} /></a>
                     </div>
                     <div className='mt-8 border-t border-gray-700 pt-8 flex flex-col items-center'>
-                     <p className='text-sm'>Copyright © 2024 Md Wasim. All Rights reserved.</p>
-                     <p className='text-sm'>Made by Wasim ❤️</p>
+                     <p className='text-sm text-center'>Copyright © 2024 Md Wasim. All Rights reserved.</p>
+                     <p className='text-sm text-center'>Made by Wasim ❤️</p>
                     </div>
                 </div>
             </div>

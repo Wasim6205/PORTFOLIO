@@ -53,8 +53,8 @@ const Experience = () => {
             <div className='grid grid-cols-2 md:grid-cols-5 gap-7 my-3'>
                 {
                     cardItem.map(({id,logo,name}) => (
-                        <div key={id} className='flex  flex-col items-center justify-center border-[2px] rounded-full md:w-[200px] md:h-[200px] shadow-md p-1 cursor-pointer hover:scale-110 duration-300'>
-                            <img src={logo} className='w-[150px] rounded-full' alt="" />
+                        <div key={id} className='flex flex-col items-center justify-center border-[2px] rounded-full md:w-[200px] md:h-[200px] shadow-md p-2 cursor-pointer hover:scale-110 duration-300'>
+                            <img src={logo} className='w-[150px] h-[150px] rounded-full' alt="" />
                             <div>
                                 <div>{name}</div>
                             </div>
