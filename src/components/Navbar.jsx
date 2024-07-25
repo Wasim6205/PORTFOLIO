@@ -52,7 +52,7 @@ const Navbar = () => {
                 ))
               }
             </ul>
-            <div onClick={() => setMenu(!menu)} className="md:hidden cursor-pointer mr-2">
+            <div onClick={() => setMenu(!menu)} className="md:hidden cursor-pointer">
               {!menu ? <AiOutlineMenu size={24} /> : <IoCloseSharp size={24} />}
             </div>
           </div>
