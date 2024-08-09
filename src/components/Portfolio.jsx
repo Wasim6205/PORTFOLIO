@@ -1,9 +1,9 @@
 import React from 'react'
 import spotifyClone from "../../public/spotify-clone.png"
 import googleClone from "../../public/google-clone.png"
-import passwordGenerator from "../../public/password_generator.png"
+import youtubeClone from "../../public/youtube-clone.png"
 import todo from "../../public/todo.png"
-import blogApp from "../../public/blogApp.png"
+import travelagency from "../../public/travelagency.png"
 
 const Portfolio = () => {
     const cardItem = [
@@ -25,11 +25,11 @@ const Portfolio = () => {
         },
         {
             id: 3,
-            logo:passwordGenerator,
-            name:"Password Generator",
-            desc:"Developed a simple password generator using ReactJS and Tailwind CSS, ensuring secure and customizable password creation.",
-            github:"https://github.com/Wasim6205/passwordGenerator",
-            live:"https://password-generator-dusky-mu.vercel.app/"
+            logo:youtubeClone,
+            name:"Youtube Clone",
+            desc:"Designed and developed a YouTube clone using ReactJS and Tailwind CSS, leveraging RapidAPI for fetching and displaying video content.",
+            github:"https://github.com/Wasim6205/Youtube-Lite",
+            live:"https://youtube-lite-gamma-one.vercel.app/"
         },
         {
             id: 4,
@@ -41,11 +41,11 @@ const Portfolio = () => {
         },
         {
             id: 5,
-            logo:blogApp,
-            name:"Blog Context App",
-            desc:"Developed a blog context app with ReactJS, Tailwind CSS, Context API, useSearchParams, and useLocation hooks for dynamic content management",
-            github:"https://github.com/Wasim6205/BlogContext",
-            live:"https://blog-context-two.vercel.app/"
+            logo:travelagency,
+            name:"Travel Agency",
+            desc:"Developed a dynamic and responsive travel agency website using ReactJS and Tailwind CSS. Implemented user-friendly navigation and interactive features to enhance the user experience.",
+            github:"https://github.com/Wasim6205/Travel-Agency",
+            live:"https://travel-agency-three-roan.vercel.app/"
         },
     ]
   return (
